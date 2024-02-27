@@ -3,7 +3,6 @@ layout: about
 title: about
 permalink: /
 subtitle:  Rutgers University.
-
 profile:
   align: right
   image: teng.jpg
