@@ -24,3 +24,5 @@ I am currently a dedicated Ph.D. student in Computer Science at Rutgers Universi
 My research passion lies in the intriguing realm of heuristic search algorithms, with a particular emphasis on rule-based and learning-based approaches tailored for multi-agent and multi-robot cooperative path planning. Additionally, I had the privilege of contributing as one of the organizers of the esteemed [League of Robot Runners](leaguerobotrunners.org) competition, which garnered sponsorship from Amazon Robotics.
 
 Currently, my focus lies in enhancing zero-shot computer vision algorithms for a bin-picking project.
+
+I am actively pursuing opportunities in roles such as Applied Scientist, Software Engineer, or Research Scientist.
