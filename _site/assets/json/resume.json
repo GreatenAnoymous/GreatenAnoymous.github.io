@@ -1,1 +1,80 @@
-{"basics":{"name":"Teng Guo","label":"Ph.D. student","image":"","email":"greaten23333@gmail.com","phone":"8483916156"},"education":[{"institution":"Rutgers University","location":"New Jersey, USA","area":"Robotics","studyType":"PhD","startDate":"2019","endDate":"2024"},{"institution":"University of Science and Technology of China","location":"Anhui, China","area":"Physics","studyType":"Bachelor","startDate":"2015","endDate":"2019"}],"publications":[{"name":"Zur Elektrody/namik bewegter Körper","publisher":"Annalen der Physik",},{"name":"Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt","publisher":"Annalen der Physik",},{"name":"Die Grundlage der allgemeinen Relativitätstheorie","publisher":"Annalen der Physik",}],"skills":[{"name":"CS","level":"Master","icon":"fa-solid fa-hashtag","keywords":["Python","C++","Pytorch","ROS"]}],"languages":[{"language":"Chinese","fluency":"Native speaker","icon":""},{"language":"English","fluency":"Fluent","icon":""}],"interests":[{"name":"CS","icon":"fa-solid fa-tag","keywords":["Machine Learning","Robotics"]}]}
+{
+  "basics": {
+    "name": "Teng Guo",
+    "label": "Ph.D. student",
+    "image": "",
+    "email": "greaten23333@gmail.com",
+    "phone": "8483916156"
+  },
+
+ 
+  "education": [
+    {
+      "institution": "Rutgers University",
+      "location": "New Jersey, USA",
+      "area": "Robotics",
+      "studyType": "PhD",
+      "startDate": "2019",
+      "endDate": "2024"
+    },
+    {
+        "institution": "University of Science and Technology of China",
+        "location": "Anhui, China",
+        "area": "Physics",
+        "studyType": "Bachelor",
+        "startDate": "2015",
+        "endDate": "2019"
+      }
+  ],
+
+  "publications": [
+    {
+      "name": "Zur Elektrody/namik bewegter Körper",
+      "publisher": "Annalen der Physik",
+    },
+    {
+      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
+      "publisher": "Annalen der Physik",
+    },
+    {
+      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
+      "publisher": "Annalen der Physik",
+    }
+  ],
+  "skills": [
+    {
+      "name": "CS",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Python",
+        "C++",
+        "Pytorch",
+        "ROS"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Chinese",
+      "fluency": "Native speaker",
+      "icon": ""
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent",
+      "icon": ""
+    }
+  ],
+  "interests": [
+    {
+      "name": "CS",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "Machine Learning",
+        "Robotics"
+      ]
+    }
+  ]
+  
+}
