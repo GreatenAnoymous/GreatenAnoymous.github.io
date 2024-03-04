@@ -21,7 +21,7 @@ social: true # includes social icons at the bottom of the page
 
 I am currently a dedicated Ph.D. student in Computer Science at Rutgers University, under the guidance of the esteemed Prof. Jingjin Yu. My educational background began at the University of Science and Technology of China (USTC), where I pursued my undergraduate degree in Physics.
 
-My research passion lies in the intriguing realm of heuristic search algorithms, with a particular emphasis on rule-based and learning-based approaches tailored for multi-agent and multi-robot cooperative path planning. Additionally, I had the privilege of contributing as one of the organizers of the esteemed [League of Robot Runners](leaguerobotrunners.org) competition, which garnered sponsorship from Amazon Robotics.
+My research passion lies in the intriguing realm of heuristic search algorithms, with a particular emphasis on rule-based and learning-based approaches tailored for multi-agent and multi-robot cooperative path planning. Additionally, I had the privilege of contributing as one of the organizers of the esteemed [League of Robot Runners](https://www.leagueofrobotrunners.org/) competition, which garnered sponsorship from Amazon Robotics.
 
 Currently, my focus lies in enhancing zero-shot computer vision algorithms for a bin-picking project.
 
