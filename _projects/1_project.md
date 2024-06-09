@@ -2,9 +2,9 @@
 layout: page
 title: project 1
 description: Enhancing Instance Segmentation for Robotic Bin Picking
-img: assets/img/sam.gif
+img: assets/video/sam.gif
 importance: 1
-category: work
+category: fun
 related_publications: false
 ---
 Step into a world where robotics seamlessly navigate the bustling aisles of futuristic warehouses, their precision unmatched and efficiency unparalleled. In this realm of innovation, I am spearheading a groundbreaking project that promises to revolutionize the realm of bin picking.
@@ -16,7 +16,7 @@ Through meticulous refinement and innovative methodologies, my project aims to i
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/sam.gif" title="" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/video/sam.gif" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
