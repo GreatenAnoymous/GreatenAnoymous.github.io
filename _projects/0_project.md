@@ -8,7 +8,7 @@ category: work
 related_publications: false
 ---
 
-We fine-tuned the Depth-Anything model using LoRA on mixed public transparent object datasets to estimate the relative depth of transparent objects. Additionally, we proposed a one-shot alignment method for rapid deployment of the model on real robots. Combined with GraspNet and SuctionNet for predicting grasping poses, the UR5 robot can robustly grasp transparent objects without the aid of depth sensors after the camera calibration.
+We fine-tuned the Depth-Anything model using LoRA on mixed public transparent object datasets to estimate the relative depth of transparent objects. Additionally, we proposed a one-shot alignment method for rapid deployment of the model on real robots. Combined with GraspNet and SuctionNet for predicting grasping poses, the UR5 robot can robustly grasp transparent objects without the aid of depth sensors after the camera calibration. In the following demos, depth sensor is only used in the camera calibration step. 
 
 
 <div class="row">
