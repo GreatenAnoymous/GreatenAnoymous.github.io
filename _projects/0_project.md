@@ -1,7 +1,7 @@
 ---
 layout: page
 title: project 0
-description: Robotic Grasping of Transparent Objects Using Mono Depth Estimation Model
+description: Robotic Grasping of Opaque/Transparent Objects Using Single-RGB Input and Mono Depth Estimation Model
 img: assets/video/Demo4.gif
 importance: 1
 category: work
