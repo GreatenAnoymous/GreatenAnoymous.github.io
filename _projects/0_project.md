@@ -24,3 +24,24 @@ We fine-tuned the Depth-Anything model using LoRA on mixed public transparent ob
         {% include figure.liquid loading="eager" path="assets/video/Demo3.gif" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/video/dem_standstill3.gif" title="" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/video/demo_downward_transparent.gif" title="" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/video/demo_stand_still2.gif" title="" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
