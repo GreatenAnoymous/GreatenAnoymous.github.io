@@ -22,7 +22,7 @@
   
 </title>
 <meta name="author" content="Teng Guo">
-<meta name="description" content="Robotic Grasping of Transparent Objects Using Mono Depth Estimation Model">
+<meta name="description" content="Robotic Grasping of Opaque/Transparent Objects Using Single-RGB Input and Mono Depth Estimation Model">
 
 
 
@@ -279,11 +279,11 @@
         <div class="post">
   <header class="post-header">
     <h1 class="post-title">project 0</h1>
-    <p class="post-description">Robotic Grasping of Transparent Objects Using Mono Depth Estimation Model</p>
+    <p class="post-description">Robotic Grasping of Opaque/Transparent Objects Using Single-RGB Input and Mono Depth Estimation Model</p>
   </header>
 
   <article>
-    <p>We fine-tuned the Depth-Anything model using LoRA on mixed public transparent object datasets to estimate the relative depth of transparent objects. Additionally, we proposed a one-shot alignment method for rapid deployment of the model on real robots. Combined with GraspNet and SuctionNet for predicting grasping poses, the UR5 robot can robustly grasp transparent objects without the aid of depth sensors.</p>
+    <p>We fine-tuned the Depth-Anything model using LoRA on mixed public transparent object datasets to estimate the relative depth of transparent objects. Additionally, we proposed a one-shot alignment method for rapid deployment of the model on real robots. Combined with GraspNet and SuctionNet for predicting grasping poses, the UR5 robot can robustly grasp transparent objects without the aid of depth sensors after the camera calibration. In the following demos, depth sensor is only used in the camera calibration step.</p>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -323,6 +323,121 @@
       <source class="responsive-img-srcset" srcset="/assets/video/Demo3-480.webp 480w,/assets/video/Demo3-800.webp 800w,/assets/video/Demo3-1400.webp 1400w," sizes="95vw" type="image/webp"></source>
     
     <img src="/assets/video/Demo3.gif" class="img-fluid rounded z-depth-1" width="100%" height="auto" title="" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </picture>
+
+  
+</figure>
+
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      <source class="responsive-img-srcset" srcset="/assets/video/dem_standstill3-480.webp 480w,/assets/video/dem_standstill3-800.webp 800w,/assets/video/dem_standstill3-1400.webp 1400w," sizes="95vw" type="image/webp"></source>
+    
+    <img src="/assets/video/dem_standstill3.gif" class="img-fluid rounded z-depth-1" width="100%" height="auto" title="" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </picture>
+
+  
+</figure>
+
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      <source class="responsive-img-srcset" srcset="/assets/video/demo_downward_transparent-480.webp 480w,/assets/video/demo_downward_transparent-800.webp 800w,/assets/video/demo_downward_transparent-1400.webp 1400w," sizes="95vw" type="image/webp"></source>
+    
+    <img src="/assets/video/demo_downward_transparent.gif" class="img-fluid rounded z-depth-1" width="100%" height="auto" title="" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </picture>
+
+  
+</figure>
+
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      <source class="responsive-img-srcset" srcset="/assets/video/demo_stand_still2-480.webp 480w,/assets/video/demo_stand_still2-800.webp 800w,/assets/video/demo_stand_still2-1400.webp 1400w," sizes="95vw" type="image/webp"></source>
+    
+    <img src="/assets/video/demo_stand_still2.gif" class="img-fluid rounded z-depth-1" width="100%" height="auto" title="" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </picture>
+
+  
+</figure>
+
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      <source class="responsive-img-srcset" srcset="/assets/video/ts_standing-480.webp 480w,/assets/video/ts_standing-800.webp 800w,/assets/video/ts_standing-1400.webp 1400w," sizes="95vw" type="image/webp"></source>
+    
+    <img src="/assets/video/ts_standing.gif" class="img-fluid rounded z-depth-1" width="100%" height="auto" title="" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </picture>
+
+  
+</figure>
+
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+      <source class="responsive-img-srcset" srcset="/assets/video/suction_demo2-480.webp 480w,/assets/video/suction_demo2-800.webp 800w,/assets/video/suction_demo2-1400.webp 1400w," sizes="95vw" type="image/webp"></source>
+    
+    <img src="/assets/video/suction_demo2.gif" class="img-fluid rounded z-depth-1" width="100%" height="auto" title="" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
   </picture>
 
   
