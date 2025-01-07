@@ -1,23 +1,53 @@
 ---
 layout: page
 title: project 1
-description: Enhancing Instance Segmentation for Robotic Bin Picking
-img: assets/video/sam.gif
+description: Enhanced FoundationPose For Pose Estimation and Tracking
+img: assets/video/demo_head.gif
 importance: 1
 category: fun
 related_publications: false
 ---
-Step into a world where robotics seamlessly navigate the bustling aisles of futuristic warehouses, their precision unmatched and efficiency unparalleled. In this realm of innovation, I am spearheading a groundbreaking project that promises to revolutionize the realm of bin picking.
+FoundationPose is a state-of-the-art vision foundation model for 6D pose estimation and pose tracking. For pose estimation, it leverages the CAD model, RGBD input, and the object's mask. The process involves:
 
-Drawing upon the cutting-edge technology of SegmentAnything, a zero-shot method, and harnessing the power of DepthAnything, I am enhancing instance segmentation to a level never before imagined. Picture a robot equipped with the ability to discern, with much better accuracy, the myriad objects nestled within warehouse bins, effortlessly distinguishing between items of varying shapes, sizes, and textures.
+Generating globally sampled random pose hypotheses.
+1. Refining these hypotheses using a refinement network.
+2. Scoring each pose with a scoring network, with the highest-scoring pose selected as the final result.
+3. For pose tracking, FoundationPose initializes the pose hypotheses using the pose from the previous frame and refines it with the same refinement network.
 
-Through meticulous refinement and innovative methodologies, my project aims to imbue these robotic entities with a keen sense of perception, enabling them to swiftly and intelligently navigate through the labyrinthine aisles of storage facilities. No longer bound by the constraints of traditional methods, our vision transcends limitations, ushering in a new era where robotics seamlessly integrate into the fabric of industrial operations.
+Enhancements Introduced:
+1. Depth-Free Operation: The model now supports pose estimation and tracking without requiring depth input.
+2. Robust Object Tracking: Improved tracking resilience, enabling recovery from tracking losses.
 
+The following sections include demonstration comparisons showcasing these enhancements.
 
+Firstly, we demonstrate that when the input depth is of poor quality (e.g., in the demo where depth is captured by a D404 sensor), the original FoundationPose struggles to achieve accurate pose estimation and tracking. In contrast, our enhanced version performs effectively without relying on depth input.
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/video/sam.gif" title="" class="img-fluid rounded z-depth-1" %}
+        <video class="img-fluid rounded z-depth-1" controls>
+            <source src="assets/video/demo1.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
     </div>
 </div>
 
+Secondly, we demonstrate that when monocular depth obtained from the zero-shot metric depth estimation model, ZoeDepth, is used as input, the original FoundationPose fails to perform effectively. In contrast, our enhanced version continues to deliver robust results.
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <video class="img-fluid rounded z-depth-1" controls>
+            <source src="assets/video/demo2.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+</div>
+
+
+Thirdly, we demonstrate that when the tracked object is temporarily occluded by other objects, the original FoundationPose loses tracking and fails to recover. In contrast, our enhanced version, integrating XMem and a linear Kalman filter, provides more robust object tracking. Additionally, the enhanced pipeline achieves real-time performance, running at 20-30 FPS on an RTX 3090 with a 640×480 image resolution
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <video class="img-fluid rounded z-depth-1" controls>
+            <source src="assets/video/demo3.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+</div>
 
