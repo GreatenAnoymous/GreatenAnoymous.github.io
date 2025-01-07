@@ -9,10 +9,10 @@ related_publications: false
 ---
 FoundationPose is a state-of-the-art vision foundation model for 6D pose estimation and pose tracking. For pose estimation, it leverages the CAD model, RGBD input, and the object's mask. The process involves:
 
-Generating globally sampled random pose hypotheses.
-1. Refining these hypotheses using a refinement network.
-2. Scoring each pose with a scoring network, with the highest-scoring pose selected as the final result.
-3. For pose tracking, FoundationPose initializes the pose hypotheses using the pose from the previous frame and refines it with the same refinement network.
+1. Generating globally sampled random pose hypotheses.
+2. Refining these hypotheses using a refinement network.
+3. Scoring each pose with a scoring network, with the highest-scoring pose selected as the final result.
+For pose tracking, FoundationPose initializes the pose hypotheses using the pose from the previous frame and refines it with the same refinement network.
 
 Enhancements Introduced:
 1. Depth-Free Operation: The model now supports pose estimation and tracking without requiring depth input.
