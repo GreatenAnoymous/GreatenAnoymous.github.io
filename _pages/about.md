@@ -25,7 +25,7 @@ My research focuses on multi-robot planning, robotic grasping, and robotic visio
 
 
 
-I am actively pursuing opportunities in roles such as Applied Scientist, Software Engineer, or Research Scientist.
+I worked for Intuitive Autonomy as a robotics engineer.
 
 
 <script src="./live2dw_miku/lib/L2Dwidget.min.js?0c58a1486de42ac6cc1c59c7d98ae887"></script>
