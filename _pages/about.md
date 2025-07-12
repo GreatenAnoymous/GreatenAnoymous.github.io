@@ -23,15 +23,13 @@ Certainly! Here's a refined and polished version of your text, with improved flo
 
 ---
 
-I am a Ph.D. candidate in Computer Science at Rutgers University, advised by the esteemed Professor Jingjin Yu. Prior to my doctoral studies, I earned my undergraduate degree in Physics from the University of Science and Technology of China (USTC).
 
-My research focuses on multi-robot planning, robotic grasping, and robotic vision—areas central to advancing autonomous systems and intelligent robotics. I have also played a key role as an organizer for the [League of Robot Runners](https://www.leagueofrobotrunners.org/), a robotics competition sponsored by Amazon Robotics.
 
-In addition to my academic pursuits, I have professional experience as a robotics engineer at Intuitive Autonomy, where I contributed to the development of elder care robots.
+I hold a Ph.D. in Computer Science from Rutgers University, where I was advised by the esteemed Professor Jingjin Yu. I completed my undergraduate studies in Physics at the University of Science and Technology of China (USTC).
 
----
+My research focuses on multi-robot planning, robotic grasping, and robotic vision—key areas in the development of intelligent and autonomous robotic systems. I have also served as one of the organizers of the [League of Robot Runners](https://www.leagueofrobotrunners.org/), a robotics competition sponsored by Amazon Robotics.
 
-Let me know if you'd like it tailored further for a specific context, such as a CV, personal website, or job application.
+Before or during my doctoral studies, I worked as a robotics engineer at Intuitive Autonomy, contributing to the design and algorithm development and testing of edler care robots.
 
 
 <script src="./live2dw_miku/lib/L2Dwidget.min.js?0c58a1486de42ac6cc1c59c7d98ae887"></script>
