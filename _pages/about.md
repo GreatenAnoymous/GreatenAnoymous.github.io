@@ -23,7 +23,7 @@ I earned my Ph.D. in Computer Science from Rutgers University under the guidance
 
 My research centers on multi-robot planning, robotic grasping, and robotic vision, advancing the development of intelligent, autonomous robotic systems. I also co-organized the  [League of Robot Runners](https://www.leagueofrobotrunners.org/), a robotics competition sponsored by Amazon Robotics.
 
-During my doctoral studies, I worked as a robotics engineer at Intuitive Autonomy, where I contributed to the design, algorithm development, and testing of elder care robots.
+In addition to my academic pursuits, I worked as a robotics engineer at Intuitive Autonomy, where I contributed to the design, algorithm development, and testing of elder care robots.
 
 <script src="./live2dw_miku/lib/L2Dwidget.min.js?0c58a1486de42ac6cc1c59c7d98ae887"></script>
 <script>
