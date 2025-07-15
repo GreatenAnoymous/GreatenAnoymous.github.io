@@ -13,3 +13,6 @@ nav_order: 2
 {% bibliography %}
 
 </div>
+
+
+<script src="https://fastly.jsdelivr.net/npm/live2d-widgets@1.0.0-rc.6/dist/autoload.js"></script>
