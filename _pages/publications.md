@@ -11,8 +11,8 @@ nav_order: 2
 <div class="publications">
 
 {% bibliography %}
-
+<script src="https://fastly.jsdelivr.net/npm/live2d-widgets@1.0.0-rc.6/dist/autoload.js"></script>
 </div>
 
 
-<script src="https://fastly.jsdelivr.net/npm/live2d-widgets@1.0.0-rc.6/dist/autoload.js"></script>
+
