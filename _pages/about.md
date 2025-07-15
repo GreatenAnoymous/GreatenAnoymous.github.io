@@ -25,25 +25,4 @@ My research centers on multi-robot planning, robotic grasping, and robotic visio
 
 In addition to my academic pursuits, I worked as a robotics engineer at Intuitive Autonomy, where I contributed to the design, algorithm development, and testing of elder care robots.
 
-<script src="./live2dw_miku/lib/L2Dwidget.min.js?0c58a1486de42ac6cc1c59c7d98ae887"></script>
-<script>
-L2Dwidget.init({
-  "pluginRootPath": "./live2dw_miku/",
-  "pluginJsPath": "lib/",
-  "pluginModelPath": "assets/",
-  "tagMode": false,
-  "debug": false,
-  "model": {
-    "jsonPath": "./live2dw_miku/assets/miku.model.json"
-  },
-  "display": {
-    "position": "right",
-    "width": 150,
-    "height": 300
-  },
-  "mobile": {
-    "show": true
-  },
-  "log": false
-});
-</script>
+<script src="https://fastly.jsdelivr.net/npm/live2d-widgets@1.0.0-rc.6/dist/autoload.js"></script>
